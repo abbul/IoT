@@ -1,0 +1,16 @@
+{
+  "name": "m_agent",
+  "version": "1.0.0",
+  "description": "Plataforma Iot - Agent",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Abbul Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "uuid": "^3.4.0"
+  }
+}

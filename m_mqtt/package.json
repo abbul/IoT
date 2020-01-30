@@ -1,0 +1,21 @@
+{
+  "name": "m_mqtt",
+  "version": "1.0.0",
+  "description": "Sevidor MQTT",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "dev": " redis-server & nodemon server.js"
+  },
+  "author": "Abbul Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "m_db": "file:../m_db",
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
